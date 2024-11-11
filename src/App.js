@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import pic from "./Chip.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="first">
+      <h1> Chocolate Chip Cookies Shop </h1>
+      <p>“Make the world a better place one cookie at a time.”</p>;
+      <img className="image" src={pic} alt="cookies shop"></img>
     </div>
   );
 }
-
 export default App;
+
+// function App(){
+//   return(
+//     const products =
+//     name = "Gingerbread cookie"
+//     price = 2 "KD"
+//     img"
+
+//     <div>
+//     </div>
+//   )
+// }
