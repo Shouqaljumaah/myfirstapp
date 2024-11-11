@@ -9,5 +9,15 @@ code {
 }
 
 .image {
-  min-width: 100%;
+  min-width: 50%;
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.img1 {
+  width: 20%;
+  text-align: center;
 }
